@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ovo', sans-serif;
+}
+
+header {
+	margin: 0;
+}
+
+.banner {
+	margin: 0;
+	height: 100%;
+	/*width: 100%;*/
+	padding: 400px;
+	background-image: linear-gradient(rgb(255 255 255 / 30%), rgb(226 226 226 / 30%)),url('Imagenes/logos/logojulus2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	box-shadow: 2px 5px 9px 3px #424141;
+	}
+
+.banner h1, p {
+	text-shadow: -4px 3px 7px #989797;
+	color: white;
+	text-align: left;
+}
+
+.barra {
+	display: unset;
+}
+
+.barra-navegacion {
+
+	box-shadow: inset -1px 4px 6px 0px #ccc6c6;
+	background: linear-gradient(1deg, rgba(245,212,243,255), #b8b6e5 90%);
+	font-family: 'Ovo', sans-serif;
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+	
+}
+
+
+.barra-navegacion__lista {
+	margin-top: 0;
+	list-style: none;
+
+}
+
+.barra-navegacion__item {
+	display: inline-block;
+	
+	
+	
+}
+
+.barra-navegacion__link {
+	text-decoration: none;
+	padding: 10px 50px;
+	/*padding-top: 20px;
+	padding-bottom: 15px;*/
+	color: black;
+	display: block;
+	transition: background-color 0.5s;
+}
+
+.barra-navegacion__link:hover {
+	background-color: grey;
+	box-shadow: inset -1px 4px 6px 0px #424141;
+	color: white;
+	
+}
+
+.seccion-roll {
+	margin: 50px 100px;
+	padding: 50px;
+	outline: 2px solid black;
+	position: relative;
+	height: 500px;
+	padding-bottom: 500px;
+
+}
+
+.seccion-roll__descripcion {
+	border: 2px solid black;
+	width: 500px;
+	padding: 30px;
+	position: absolute;
+	top: 50px;
+}
+
+
+
+.seccion-roll__titulo {
+	color: black;
+
+}
+
+.seccion-roll__containerfotos {
+	position: absolute;
+	right: 50px;
+}
+.seccion-roll__fotos {
+	
+	width: 350px;
+	border-radius: 5px;
+	filter: grayscale(60%);	
+	margin-left: 150px;
+
+	
+
+}
