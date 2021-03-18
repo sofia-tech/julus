@@ -47,6 +47,7 @@ header {
 
 .barra-navegacion__lista {
 	margin-top: 0;
+	margin-bottom: 0;
 	list-style: none;
 
 }
@@ -75,42 +76,68 @@ header {
 	
 }
 
-.seccion-roll {
-	margin: 50px 100px;
-	padding: 50px;
-	outline: 2px solid black;
-	position: relative;
+
+.fondo {
+	margin-top: 0;
+	background-color: #b8b6e5;
+	padding: 10px;
+	
+}
+
+.seccion-inicio{
+	margin-right: auto;
+	margin-left: auto;
+}
+ .inicio {
+ 	display: inline-block;
+ 	
+ }
+
+
+.seccion-inicio__roll {
+	background-image: url(Imagenes/roll2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 435px;
 	height: 500px;
-	padding-bottom: 500px;
+	padding-right: 5px;
+	filter: grayscale(60%);
+	transition: filter 0.5s;
+	box-shadow: 0px 19px 10px 3px #3e3e3e;
+}
+
+.seccion-inicio__roll:hover {
+	filter: grayscale(0%);
+}
+
+
+
+.seccion-inicio__trenza {
+	background-image: url(Imagenes/buclescard.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 435px;
+	height: 500px;
+		filter: grayscale(60%);
+	transition: filter 0.5s;
+	box-shadow: 0px 19px 10px 3px #3e3e3e;
+}
+
+.seccion-inicio__trenza:hover {
+	filter: grayscale(0%);
+}
+.seccion-inicio__bucle {
+	background-image: url(Imagenes/trenza.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 436px;
+	height: 500px;
+		filter: grayscale(60%);
+	transition: filter 0.5s;
+	box-shadow: 0px 19px 10px 3px #3e3e3e;
 
 }
 
-.seccion-roll__descripcion {
-	border: 2px solid black;
-	width: 500px;
-	padding: 30px;
-	position: absolute;
-	top: 50px;
-}
-
-
-
-.seccion-roll__titulo {
-	color: black;
-
-}
-
-.seccion-roll__containerfotos {
-	position: absolute;
-	right: 50px;
-}
-.seccion-roll__fotos {
-	
-	width: 350px;
-	border-radius: 5px;
-	filter: grayscale(60%);	
-	margin-left: 150px;
-
-	
-
+.seccion-inicio__bucle:hover {
+	filter: grayscale(0%);
 }
